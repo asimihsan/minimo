@@ -25,7 +25,7 @@
     {{ with $config.description }}
       {{- . | markdownify -}}
     {{ else }}
-      {{- .Site.Params.info.description -}}
+      {{- .Site.Params.info.description | markdownify -}}
     {{ end }}
     </div>
   </header>
