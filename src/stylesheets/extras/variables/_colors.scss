@@ -1,5 +1,7 @@
 $color__accent: #ffcd00;
 
+$color__blue-300: #6cbbf7;
+$color__blue-700: #0064bd;
 $color__bluegrey-900: #263238;
 $color__bluegrey-800: #37474f;
 $color__bluegrey-700: #455a64;
@@ -31,8 +33,8 @@ $color__button-text: $color__text-main;
 
 $color__blockquote-border: $color__grey;
 
-$color__link: $color__black;
-$color__link-hover: $color__text-main;
+$color__link: $color__blue-700;
+$color__link-hover: $color__blue-300;
 
 $color__border-input: $color__grey;
 $color__border-table: $color__grey;
