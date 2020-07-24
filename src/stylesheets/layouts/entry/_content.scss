@@ -5,18 +5,4 @@
       margin-bottom: 0;
     }
   }
-
-  a {
-    border-bottom: 0.125em dashed $color__grey;
-
-    &:focus,
-    &:hover {
-      border-bottom-color: $color__accent;
-      border-bottom-color: var(--color-accent);
-    }
-
-    &.footnote-return {
-      border-bottom: none;
-    }
-  }
 }
