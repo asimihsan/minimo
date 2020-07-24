@@ -16,7 +16,7 @@
   transition: left $transition-duration;
 
   text-align: right;
-  background: $color__pure-white;
+  background: $color__grey_body;
 
   &.toggled {
     visibility: visible;
