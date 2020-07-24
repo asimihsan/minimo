@@ -53,6 +53,5 @@
 {{- template "breadcrumbs_add_parents" ( dict "Config" $config "Page" . "Scratch" $scratch ) -}}
 {{- if ne .Kind "home" -}}
   {{- $scratch.Add "crumbs" .Site.Home -}}
+  {{- template "breadcrumbs" ( dict "Config" $config "Scratch" $scratch ) -}}
 {{- end -}}
-
-{{- template "breadcrumbs" ( dict "Config" $config "Scratch" $scratch ) -}}
