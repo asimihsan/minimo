@@ -84,7 +84,7 @@ const scrollHandler = () => {
 
 const resizeAndScrollHandler = () => {
   resizeHandler()
-  scrollHandler()
+  // scrollHandler()
 }
 
 const initSidebarMenu = () => {
@@ -115,7 +115,7 @@ export const initSidebar = () => {
   collapseButton.addEventListener('click', hideSidebar)
   overlay.addEventListener('click', hideSidebar)
 
-  window.addEventListener('scroll', scrollHandler)
+  // window.addEventListener('scroll', scrollHandler)
   window.addEventListener('resize', () => {
     clearTimeout(resizeTimer)
     resizeTimer = setTimeout(resizeAndScrollHandler, 500)
